@@ -1,0 +1,27 @@
+{
+  "name": "vue-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "mocha",
+    "all": "npm run build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joe3Ray/vue-php.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joe3Ray/vue-php/issues"
+  },
+  "homepage": "https://github.com/Joe3Ray/vue-php#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.2.6",
+    "vue": "^2.2.6"
+  }
+}
