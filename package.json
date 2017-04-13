@@ -1,23 +1,20 @@
 {
-  "name": "vue-php",
+  "name": "fis-parser-vue-to-php",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js",
-    "test": "mocha",
-    "all": "npm run build && npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Joe3Ray/vue-php.git"
+    "url": "https://github.com/jnlong/fis-parser-vue-to-php.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Joe3Ray/vue-php/issues"
+    "url": "https://github.com/jnlong/fis-parser-vue-to-php/issues"
   },
-  "homepage": "https://github.com/Joe3Ray/vue-php#readme",
+  "homepage": "https://github.com/jnlong/fis-parser-vue-to-php/blob/master/README.md",
   "dependencies": {
   },
   "devDependencies": {

@@ -11,16 +11,17 @@ $ npm install
 ```
 
 ## fis配置
-// 编译vue组件
-fis.match('component/comm/**.vue', {
-    parser: [
-        fis.plugin('vue-to-php',{outPath: 'template_vue', ext: '.ph'})
-    ]
-});
+编译vue组件
+
+    fis.match('component/comm/**.vue', {
+        parser: [
+            fis.plugin('vue-to-php',{outPath: 'template_vue', ext: '.ph'})
+        ]
+    });
 
 ##参数
-outPath  // 输出路径，默认为空
-ext      // 输出文件的扩展名，默认为.php
+* outPath  // 输出路径，默认为空
+* ext      // 输出文件的扩展名，默认为.php
 
 ## License
 
