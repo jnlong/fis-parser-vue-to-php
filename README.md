@@ -20,6 +20,7 @@ $ npm install
     });
 
 ##参数
+
 * outPath  // 输出路径，默认为空
 * ext      // 输出文件的扩展名，默认为.php
 

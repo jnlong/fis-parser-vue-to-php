@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var vuePhp = require('./vue-php');
 var root = fis.project.getProjectPath();
-var confDef = { ext: '.php',outPath: ''};
+var confDef = { ext: '.php', outPath: '' };
 
 module.exports = function (content, file, conf) {
     conf = Object.assign(confDef, conf);
@@ -12,6 +12,8 @@ module.exports = function (content, file, conf) {
     var realFile = path.resolve(root, outPath, fileName + confDef.ext);
     if (outPath) {
         fs.writeFileSync(realFile, res);
+        return	content;
+    } else {
+        return res;
     }
-    return content;
 }
