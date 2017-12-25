@@ -1,27 +1,77 @@
 {
-  "name": "vue-php",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "node build.js",
-    "test": "mocha",
-    "all": "npm run build && npm test"
+  "_args": [
+    [
+      "fis-parser-vue-to-php@1.0.6",
+    ]
+  ],
+  "_development": true,
+  "_from": "fis-parser-vue-to-php@1.0.5",
+  "_id": "fis-parser-vue-to-php@1.0.5",
+  "_inBundle": false,
+  "_inCache": true,
+  "_integrity": "sha1-TjTPr3N1IBBuq+IUCTLPDBVMdgw=",
+  "_location": "/fis-parser-vue-to-php",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/fis-parser-vue-to-php-1.0.2.tgz_1492085061915_0.332811564207077"
   },
+  "_npmUser": {
+    "name": "jnlong",
+    "email": "zxl8310@163.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "fis-parser-vue-to-php@1.0.5",
+    "name": "fis-parser-vue-to-php",
+    "escapedName": "fis-parser-vue-to-php",
+    "rawSpec": "1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.5"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fis-parser-vue-to-php/-/fis-parser-vue-to-php-1.0.5.tgz",
+  "_shasum": "6b5f894c8b6ac13d0cee10a2668a79b5f31c4876",
+  "_shrinkwrap": null,
+  "_spec": "1.0.6",
+  "_where": "",
+  "author": "jnlong",
+  "bugs": {
+    "url": "https://github.com/jnlong/fis-parser-vue-to-php/issues"
+  },
+  "dependencies": {
+    "vue": "^2.3.1",
+    "vue-template-compiler": "^2.3.1"
+  },
+  "description": "将vue模板渲染成php模板\r 因为本项目是结合vue-php开发的fis插件，所以翻译后的php文件，需要结合[vue-php](https://github.com/Joe3Ray/vue-php)使用。",
+  "devDependencies": {
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6b5f894c8b6ac13d0cee10a2668a79b5f31c4876",
+    "tarball": "https://registry.npmjs.org/fis-parser-vue-to-php/-/fis-parser-vue-to-php-1.0.2.tgz"
+  },
+  "gitHead": "65a79833dc1503f7d35c38c28768e7f88f40a0ac",
+  "homepage": "https://github.com/jnlong/fis-parser-vue-to-php/blob/master/README.md",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "jnlong",
+      "email": "zxl8310@163.com"
+    }
+  ],
+  "name": "fis-parser-vue-to-php",
+  "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Joe3Ray/vue-php.git"
+    "url": "git+https://github.com/jnlong/fis-parser-vue-to-php.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Joe3Ray/vue-php/issues"
-  },
-  "homepage": "https://github.com/Joe3Ray/vue-php#readme",
-  "dependencies": {
-    "vue-template-compiler": "^2.2.6",
-    "vue": "^2.2.6"
-  },
-  "devDependencies": {
-  }
+  "scripts": {},
+  "version": "1.0.6"
 }

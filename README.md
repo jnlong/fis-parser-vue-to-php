@@ -11,17 +11,8 @@ $ npm install
 ```
 
 ## fis配置
+编译vue组件
 
-    // 编译vue组件
-    fis.match('component/comm/**.vue', {
-        parser: [
-            fis.plugin('vue-to-php')
-        ]
-    });
-
-如果想在发布前输出转换后的php文件，可以使用以下配置设置输出路径
-    
-    // 编译vue组件
     fis.match('component/comm/**.vue', {
         parser: [
             fis.plugin('vue-to-php',{outPath: 'template_vue', ext: '.ph'})

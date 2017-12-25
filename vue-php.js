@@ -14,6 +14,7 @@ function compilerPhp(template) {
     }
 }
 
+
 function getPhpCode(compPath, compName) {
     var blocks = getBlocks(compPath);
 
@@ -87,8 +88,8 @@ function getPhpCode(compPath, compName) {
         return chars.join('');
     }).join('_');
 
+    // include_once('Vue_Base.php');
     var phpCode = `<?php
-        include_once('Vue_Base.php');
 
         class ${className} extends Vue_Base {
 
