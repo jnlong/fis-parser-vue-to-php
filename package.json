@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/Joe3Ray/vue-php#readme",
   "dependencies": {
-  },
-  "devDependencies": {
     "vue-template-compiler": "^2.2.6",
     "vue": "^2.2.6"
+  },
+  "devDependencies": {
   }
 }
