@@ -1,7 +1,7 @@
 {
   "_development": true,
-  "_from": "fis-parser-vue-to-php@1.0.5",
-  "_id": "fis-parser-vue-to-php@1.0.5",
+  "_from": "fis-parser-vue-to-php",
+  "_id": "fis-parser-vue-to-php",
   "_inBundle": false,
   "_inCache": true,
   "_integrity": "sha1-TjTPr3N1IBBuq+IUCTLPDBVMdgw=",
@@ -68,5 +68,5 @@
     "url": "git+https://github.com/jnlong/fis-parser-vue-to-php.git"
   },
   "scripts": {},
-  "version": "1.0.6"
+  "version": "1.0.7"
 }

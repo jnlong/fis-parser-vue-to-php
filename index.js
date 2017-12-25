@@ -20,7 +20,7 @@ module.exports = function (content, file, conf) {
     if (outPath) {
         fs.writeFile(realFile, res, function(err){
             if(err) {
-                fs.mkdirSync(realPath);
+                !fs.existsSync(realPath) && fs.mkdirSync(realPath);
                 fs.writeFileSync(realFile, res);
                 return content;
             } else {
