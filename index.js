@@ -1,7 +1,6 @@
 // 将vue单文件中的template转换成php语言
 
 var path = require('path');
-var parse5 = require('parse5');
 var vuePhp = require('./vue-php');
 var vueTemplateCompiler = require('vue-template-compiler');
 var root = fis.project.getProjectPath();

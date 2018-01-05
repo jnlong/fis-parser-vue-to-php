@@ -46,11 +46,11 @@
     "url": "https://github.com/jnlong/fis-parser-vue-to-php/issues"
   },
   "dependencies": {
-    "vue-template-compiler": "^2.2.6"
   },
   "description": "将vue模板渲染成php模板\r 因为本项目是结合vue-php开发的fis插件，所以翻译后的php文件，需要结合[vue-php](https://github.com/Joe3Ray/vue-php)使用。",
   "devDependencies": {
-    "vue": "^2.2.6"
+    "vue": "^2.5.2",
+    "vue-template-compiler": "^2.5.2"
   },
   "directories": {},
   "dist": {
@@ -74,5 +74,5 @@
     "url": "git+https://github.com/jnlong/fis-parser-vue-to-php.git"
   },
   "scripts": {},
-  "version": "1.1.0"
+  "version": "1.1.2"
 }
