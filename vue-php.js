@@ -14,40 +14,10 @@ function compilerPhp(template) {
     }
 }
 
-
-function getPhpCode(compPath, compName) {
-    var blocks = getBlocks(compPath);
-
-    var config;
-    try {
-        config = JSON.parse(blocks.config[0].code);
-    } catch (e) {
-        config = {};
-    }
-
+function getPhpCode(compPath, compName, contentObj) {
+    var config = contentObj.config;
     var configData = config.data ? jsObjToPhpArr(config.data) : 'array()';
     var configComponents = config.components ? jsObjToPhpArr(config.components) : 'array()';
-
-    function getBlocks(filepath) {
-        if (!filepath) {
-            return;
-        }
-        var content = (0, fs.readFileSync)(filepath, 'utf8');
-        var result = (0, vueTemplateCompiler.parseComponent)(content);
-        var ret = {
-            template: {
-                code: result.template.content
-            }
-        };
-        result.customBlocks.forEach(function (e, i) {
-            var type = e.type;
-            ret[type] = ret[type] || [];
-            ret[type].push({
-                code: e.content
-            });
-        });
-        return ret;
-    }
 
     function jsObjToPhpArr(obj) {
         var ret = 'array(';
@@ -71,7 +41,8 @@ function getPhpCode(compPath, compName) {
         return ret;
     }
 
-    var template = blocks.template.code;
+    // 执行vue-php编译
+    var template = contentObj.template;
     var phpInfo = compilerPhp(template);
     if (!phpInfo) {
         console.log('组件 ' + compName + ' 编译失败');
@@ -88,6 +59,7 @@ function getPhpCode(compPath, compName) {
         return chars.join('');
     }).join('_');
 
+    // 输出php文件
     // include_once('Vue_Base.php');
     var phpCode = `<?php
 

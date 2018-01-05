@@ -1,7 +1,13 @@
 {
+  "_args": [
+    [
+      "fis-parser-vue-to-php@1.0.5",
+      "/Users/zhangxianlong/Desktop/code/ATrunk/wise-vue/src"
+    ]
+  ],
   "_development": true,
-  "_from": "fis-parser-vue-to-php",
-  "_id": "fis-parser-vue-to-php",
+  "_from": "fis-parser-vue-to-php@1.0.5",
+  "_id": "fis-parser-vue-to-php@1.0.5",
   "_inBundle": false,
   "_inCache": true,
   "_integrity": "sha1-TjTPr3N1IBBuq+IUCTLPDBVMdgw=",
@@ -33,18 +39,18 @@
   "_resolved": "https://registry.npmjs.org/fis-parser-vue-to-php/-/fis-parser-vue-to-php-1.0.5.tgz",
   "_shasum": "6b5f894c8b6ac13d0cee10a2668a79b5f31c4876",
   "_shrinkwrap": null,
-  "_spec": "1.0.6",
-  "_where": "",
-  "author": "jnlong",
+  "_spec": "1.0.5",
+  "_where": "/Users/zhangxianlong/Desktop/code/ATrunk/wise-vue/src",
+  "author": "",
   "bugs": {
     "url": "https://github.com/jnlong/fis-parser-vue-to-php/issues"
   },
   "dependencies": {
-    "vue": "^2.3.1",
-    "vue-template-compiler": "^2.3.1"
+    "vue-template-compiler": "^2.2.6"
   },
   "description": "将vue模板渲染成php模板\r 因为本项目是结合vue-php开发的fis插件，所以翻译后的php文件，需要结合[vue-php](https://github.com/Joe3Ray/vue-php)使用。",
   "devDependencies": {
+    "vue": "^2.2.6"
   },
   "directories": {},
   "dist": {
@@ -68,5 +74,5 @@
     "url": "git+https://github.com/jnlong/fis-parser-vue-to-php.git"
   },
   "scripts": {},
-  "version": "1.0.7"
+  "version": "1.1.0"
 }
